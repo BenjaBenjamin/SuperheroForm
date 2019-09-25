@@ -1,0 +1,57 @@
+*{font-family: 'Marvel', sans-serif;}
+
+.info{
+  font-size: 2rem;
+    text-align: center;
+}
+
+.powers{
+  font-size: 2rem;
+    text-align: center;
+}
+
+.powers input{
+   height: 1vw;
+    width: 1vw;
+}
+
+#others{
+    width: 20vw;
+    height: 2vw;
+}
+
+.choose{
+  font-size: 2rem;
+    text-align: center;
+}
+
+.choose input{
+   height: 1vw;
+    width: 1vw;
+}
+
+input{
+    font-size: 2rem;
+}
+
+button{
+   font-size: 3rem;
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    background-image: url(spiderman.jpg);
+    background-repeat: round;
+    height: 4vw;
+    margin-bottom: 5vw;
+    color: white;
+    font-weight: 800;
+}
+button:hover{
+    opacity: 0.7;
+}
+
+h1{
+    font-size: 4rem;
+text-align: center;
+    margin-top: 1vw;
+}

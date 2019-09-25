@@ -1,0 +1,66 @@
+<link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<h1>Who is your favorite superhero or supervillan?</h1>
+
+<form>
+  <section class="info">
+    <h2>Personal information</h2>
+   <label for="superheroname">Name of the hero</label>
+  <input type="text" name="Superhero Name" size="20" placeholder=" e.g Superman" required>
+  <br> <br>
+   <label for="realname">What is your hero's real name?</label>
+  <input type="text" name="Real name" placeholder=" e.g Clark Kent" required>
+    </section>
+  <br> <br>
+
+
+
+  <section class="powers">
+      <h2>Superpowers</h2>
+     <label for="superpowers">What superpowers does your hero have?</label>
+  <br>
+  <input type="checkbox" name="Flying">
+  <label for="Flying">Flying</label>
+  <br>
+  <input type="checkbox" name="invisibility">
+  <label for="invisibility">invisibility</label>
+  <br>
+  <input type="checkbox" name="Super strength">
+  <label for="Super strength">Super strength</label>
+  <br>
+  <input type="checkbox" name="Laser sight">
+  <label for="Laser sight">Laser sight</label>
+  <br>
+  <input type="checkbox" name="Super Speed">
+  <label for="Super Speed">Super Speed</label>
+  <br>
+  <input type="checkbox" name="Super Smart">
+  <label for="Super Smart">Super Smart</label>
+  <br>
+  <label for="other">Other powers?</label>
+  <input type="text" name="other" size="40" id="others">
+  <br> <br>
+ </section>
+
+  <section class="choose">
+  <h2>Are your hero a superhero or a supervillan? </h2>
+  <input type="radio" id="hero" name="choose" value="hero"
+         checked>
+  <label for="hero">Superhero!</label>
+
+  <input type="radio" id="villan" name="choose" value="villan">
+  <label for="villan">Supervillan!</label>
+ </section>
+  <br> <br>
+  <button type="submit">submit</button>
+</form>
+
+<script>
+document.querySelector("button").addEventListener("click", besked)
+
+    function besked(){
+        console.log(alert);
+        alert("Form has been sent!");
+    }
+</script>
